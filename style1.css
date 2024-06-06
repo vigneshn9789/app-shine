@@ -1,0 +1,34 @@
+body{
+    
+    background: url(climate.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contant{
+    background-color: rgba(196, 193, 193, 0.5);
+    width: 60%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+margin-bottom: 50px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+
+}
+
+.para{
+    color: white;
+}
+
+
+
+@media  (max-width: 650px) {
+    .contant{
+     width: 90%;
+      
+    }
+}
